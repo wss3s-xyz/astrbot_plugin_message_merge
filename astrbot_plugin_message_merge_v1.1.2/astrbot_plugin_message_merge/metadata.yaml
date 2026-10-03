@@ -1,0 +1,8 @@
+name: astrbot_plugin_message_merge
+display_name: 补话合并
+desc: 静默等待 + 消息合并（零 token）。第一条消息先扣住，静默 N 秒（默认 6）再交给模型；等待期间到达的新消息按序合并成一条一起喂进去。私聊 / 群聊可分别开关，支持用户、群、会话三级白名单。不插提示词、不改上下文、不额外调模型、不占会话锁。
+short_desc: 补话合并（零 token · 通用版）
+version: 1.1.2
+author: firefly_lab
+repo: "https://github.com/wss3s/astrbot_plugin_message_merge"
+astrbot_version: ">=4.25.5"
